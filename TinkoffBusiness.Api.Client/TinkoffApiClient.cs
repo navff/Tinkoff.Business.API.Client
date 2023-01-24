@@ -11,8 +11,10 @@ namespace TinkoffBusiness.Api.Client
         private readonly HttpClient _httpClient;
         private readonly TinkoffApiSettings _tinkoffApiSettings;
 
-        public TinkoffApiClient(HttpClient httpClient, TinkoffApiSettings tinkoffApiSettings)
+        public TinkoffApiClient(TinkoffApiSettings tinkoffApiSettings, HttpClient? httpClient = null)
         {
+            httpClient ??= new HttpClient();
+
             _httpClient = httpClient;
             _tinkoffApiSettings = tinkoffApiSettings;
 

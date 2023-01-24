@@ -10,7 +10,6 @@ namespace Tinkoff.Api.Client.Tests
         public Tests()
         {
             _apiClient = new TinkoffApiClient(
-                    new HttpClient(),
                     new TinkoffApiSettings
                     {
                         ApiUrl = "https://business.tinkoff.ru/openapi/api",
