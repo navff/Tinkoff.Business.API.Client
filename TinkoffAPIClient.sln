@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinkoffBusiness.Api.Client", "TinkoffBusiness.Api.Client\TinkoffBusiness.Api.Client.csproj", "{78B4AE66-B50A-4F56-BDE9-E3436A0EFD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinkoffBusiness.Api.Client.Tests", "TinkoffBusiness.Api.Client.Tests\TinkoffBusiness.Api.Client.Tests.csproj", "{E29A47D0-049F-499A-BD78-EE62AFE19BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B4AE66-B50A-4F56-BDE9-E3436A0EFD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B4AE66-B50A-4F56-BDE9-E3436A0EFD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B4AE66-B50A-4F56-BDE9-E3436A0EFD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B4AE66-B50A-4F56-BDE9-E3436A0EFD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29A47D0-049F-499A-BD78-EE62AFE19BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29A47D0-049F-499A-BD78-EE62AFE19BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29A47D0-049F-499A-BD78-EE62AFE19BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29A47D0-049F-499A-BD78-EE62AFE19BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B6CB8C-D9D5-49DD-BFB0-7374C14177CD}
+	EndGlobalSection
+EndGlobal
